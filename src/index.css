@@ -17,10 +17,14 @@ img{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 p,a,li{
     font-size: 1.7rem;
 }
 ul,ol{
     list-style: none;
+}
+button,input[type='checkbox']{
+    cursor: pointer;
 }

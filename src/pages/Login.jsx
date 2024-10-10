@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import DarkBG from '../components/DarkBG'
 import FormComponent from '../components/FormComponent'
 
-export default function Home() {
+export default function Login() {
   return (
     <div>
         <Navbar />
@@ -11,6 +11,7 @@ export default function Home() {
             <p>Home  /  My Account</p>
         </DarkBG>
         <FormComponent />
+        <Footer />
     </div>
   )
 }
