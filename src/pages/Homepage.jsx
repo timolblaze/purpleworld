@@ -40,10 +40,35 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* <div></div>
-            <div></div>
-            <div></div>
-        </div> */}
+      <section className={styles.hotSection}>
+        <div className={styles.topHeader}>
+          <h3>New Arrivals</h3>
+          <p>Groceries</p>
+          <p>Drinks</p>
+          <p>Baby Food </p>
+          <p>Skin care</p>
+          <p>Home & Kitchen</p>
+        </div>
+
+        <div className={styles.bannerSection}>
+          <div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
