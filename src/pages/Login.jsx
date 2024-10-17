@@ -11,7 +11,7 @@ export default function Login() {
             <p>Home  /  My Account</p>
         </DarkBG>
         <FormComponent />
-        <Footer />
+        
     </div>
   )
 }
