@@ -4,6 +4,7 @@ import { CiHeart } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FaBars } from "react-icons/fa";
 import styles from './Navbar.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -17,7 +18,7 @@ export default function Navbar() {
             </div>
 
             <div className={styles.cartDiv}>
-                <a>Login / Register</a>
+                <Link to='/login'>Login / Register</Link>
                 <CiHeart size={42}/>
                 <HiOutlineShoppingBag size={42}/>
                 <p className={styles.price}> ₦0.00</p>
