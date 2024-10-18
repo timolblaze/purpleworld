@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import styles from "./Homepage.module.css";
 import BabyMeal from "../assets/nutribom.png";
 import B2school from "../assets/back2school.png";
@@ -10,11 +10,11 @@ import Ceralac from "../assets/ceralac.png";
 import Coke from "../assets/drink.png";
 import Diaper from "../assets/smileBaby.png";
 import Coffee from "../assets/coffee.png";
-import SectionTopHeader from "../components/SectionTopHeader";
-import ProductCard from "../components/ProductCard";
+import SectionTopHeader from "../../components/SectionTopHeader";
+import ProductCard from "../../components/ProductCard";
 import Kellogs from "../assets/kellogs.png";
-import SalesComponent from "../components/SalesComponent";
-import Newsletter from "../components/Newsletter";
+import SalesComponent from "../../components/SalesComponent";
+import Newsletter from "../../components/Newsletter";
 
 export default function Homepage() {
   return (
