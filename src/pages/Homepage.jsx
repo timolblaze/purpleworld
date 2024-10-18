@@ -14,6 +14,7 @@ import SectionTopHeader from "../components/SectionTopHeader";
 import ProductCard from "../components/ProductCard";
 import Kellogs from "../assets/kellogs.png";
 import SalesComponent from "../components/SalesComponent";
+import Newsletter from "../components/Newsletter";
 
 export default function Homepage() {
   return (
@@ -112,6 +113,7 @@ export default function Homepage() {
           imgUrl={Kellogs}
         />
       </SalesComponent>
+
       <SalesComponent heading="Popular In Category">
         <ProductCard
           productName="Kellogs Cereal"
@@ -147,6 +149,8 @@ export default function Homepage() {
           imgUrl={Kellogs}
         />
       </SalesComponent>
+
+      <Newsletter />
 
       <Footer />
     </>
