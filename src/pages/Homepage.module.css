@@ -61,7 +61,6 @@
 }
 
 
-
 /* NEW ARRIVALS SECTION */
 .hotSection{
     padding: 8rem 10rem;
@@ -89,4 +88,15 @@
 .bannerSection div:nth-of-type(2) > div{
     height: 455px;
     width: 275px;
+}
+
+/* HOT SALES SECTION */
+.hotSales{
+    border: 2px solid green;
+    padding: 8rem 10rem;
+}
+.hotSales > div:nth-of-type(2){
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
 }

@@ -12,7 +12,8 @@ import Diaper from "../assets/smileBaby.png";
 import Coffee from "../assets/coffee.png";
 import SectionTopHeader from "../components/SectionTopHeader";
 import ProductCard from "../components/ProductCard";
-import Kellogs from '../assets/kellogs.png'
+import Kellogs from "../assets/kellogs.png";
+import SalesComponent from "../components/SalesComponent";
 
 export default function Homepage() {
   return (
@@ -76,9 +77,77 @@ export default function Homepage() {
         </div>
       </section>
 
-      <ProductCard productName='Kellogs Cereal' price='$5.84' category='cereals' imgUrl={Kellogs} alt='Hot'/>
-      <ProductCard productName='Kellogs Cereal' price='$5.84' category='cereals' imgUrl={Kellogs} alt='Hot'/>
-      <ProductCard productName='Kellogs Cereal' price='$5.84' category='cereals' imgUrl={Kellogs} />
+      <SalesComponent heading="Best of the week">
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+        />
+      </SalesComponent>
+      <SalesComponent heading="Popular In Category">
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+          alt="Hot"
+        />
+        <ProductCard
+          productName="Kellogs Cereal"
+          price="$5.84"
+          category="cereals"
+          imgUrl={Kellogs}
+        />
+      </SalesComponent>
+
       <Footer />
     </>
   );
