@@ -10,22 +10,23 @@ export default function Navbar() {
   return (
     <div>
         <header>
-            <div className={styles.logoCtn}>
+            <Link to='/' className={styles.logoCtn}>
                 <img src={Logo} />
-            </div>
+            </Link>
             <div className={styles.searchbarCtn}>
                 <input type='search' />
             </div>
 
             <div className={styles.cartDiv}>
                 <Link to='/login'>Login / Register</Link>
-                <CiHeart size={42}/>
+                <Link to='/shop'>Shop</Link>
                 <HiOutlineShoppingBag size={42}/>
                 <p className={styles.price}> ₦0.00</p>
             </div>
         </header>
-
-        <div className={styles.categoryDiv}>
+        <div className={styles.categoryDiv} />
+        
+        {/* <div className={styles.categoryDiv}>
             <div className={styles.categoryDropDown}>
                 <FaBars size={28} color='#f4f4f4'/>
                 <p> All  Categories </p>
@@ -39,7 +40,7 @@ export default function Navbar() {
                 <li>Home & Kitchen</li>
                 <li>Baby Foods</li>
             </ul>
-        </div>
+        </div> */}
     </div>
   )
 }
