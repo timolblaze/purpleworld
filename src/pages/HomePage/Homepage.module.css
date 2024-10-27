@@ -20,7 +20,7 @@
     position: relative;
     height: 620px;
     width: 600px;
-    background-image: url('../assets/back2school.png');
+    background-image: url('../../assets/back2school.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
